@@ -51,25 +51,3 @@ PZContinuedBroadcast/              <- Workshop item folder (this repo)
         ├── poster.png
         └── icon.png
 ```
-
-## Testing locally
-
-The game loads local mods from `%UserProfile%\Zomboid\Workshop`. Link this repo there (run in `cmd`):
-
-```
-mklink /J "%UserProfile%\Zomboid\Workshop\PZContinuedBroadcast" "E:\Git Projects\PZContinuedBroadcast"
-```
-
-Then enable **Continued TV Broadcast: Life and Living** in the Mods menu. `console.txt` shows lines prefixed with `[PZContinuedBroadcast]` when the patch is applied:
-
-```
-[PZContinuedBroadcast] trimmed 12 static broadcasts, programmes end at minute 13680 (day 9)
-[PZContinuedBroadcast] 'main' now loops forever
-```
-
-To test quickly, start a game in debug mode (`-debug` launch option) and skip time forward past day 10, or load an old save that's past day 12. You should see `channel was off the air, restarted reruns...` and Life and Living back on channel 203.
-
-## Uploading to the Workshop
-
-1. Main menu → **Workshop** → **Create and update items** → pick `PZContinuedBroadcast`.
-2. The uploader reads `workshop.txt` and `preview.png` and writes the Workshop `id=` into `workshop.txt` after the first upload. Commit that change so later uploads update the same item.
