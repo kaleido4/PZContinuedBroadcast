@@ -1,0 +1,11 @@
+{
+    "Sandbox_PZContinuedBroadcast": "Continued TV Broadcast",
+    "Sandbox_PZCB_Schedule": "Life and Living Rerun Schedule",
+    "Sandbox_PZCB_Schedule_tooltip": "When Life and Living TV reruns its programmes after the original broadcast ends.\\nBack to back: the full schedule restarts the day after it ends (plus Days Off Air).\\nMonthly: the full schedule airs from the 1st of every month (ending the 10th at noon), then the channel is off air until the next 1st.",
+    "Sandbox_PZCB_Schedule_option1": "Back to back",
+    "Sandbox_PZCB_Schedule_option2": "Monthly (from the 1st)",
+    "Sandbox_PZCB_DaysOffAir": "Days Off Air Between Reruns (Back to back only)",
+    "Sandbox_PZCB_DaysOffAir_tooltip": "Only used when Rerun Schedule is Back to back. Number of full days the channel stays off air before the next rerun starts. 0 = the next rerun starts the day after the last one ends.\\nIgnored for Monthly, which always starts on the 1st of each month whatever its length.",
+    "Sandbox_PZCB_RerunXP": "Reruns Give XP Again",
+    "Sandbox_PZCB_RerunXP_tooltip": "On: every airing of a Life and Living show gives skill XP, still limited by Media XP Level Cutoff.\\nOff: each character gets skill XP from each part of a show only the first time they watch it. Reruns still reduce boredom and teach any recipes the character missed."
+}

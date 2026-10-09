@@ -1,0 +1,10 @@
+name=Continued TV Broadcast: Life and Living
+id=PZContinuedBroadcast
+author=kaleido4
+modversion=1.0.0
+versionMin=42.0.0
+poster=poster.png
+icon=icon.png
+description=Life and Living TV no longer goes off the air after day 9.
+description=The full programme schedule reruns every 10 days, forever, giving skill XP and teaching recipes each time.
+description=Safe to add to existing saves. Works in singleplayer and multiplayer.

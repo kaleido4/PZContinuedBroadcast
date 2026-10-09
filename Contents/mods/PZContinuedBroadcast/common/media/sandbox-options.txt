@@ -1,0 +1,19 @@
+VERSION = 1,
+
+option PZContinuedBroadcast.Schedule
+{
+    type = enum, numValues = 2, default = 1,
+    page = PZContinuedBroadcast, translation = PZCB_Schedule,
+}
+
+option PZContinuedBroadcast.DaysOffAir
+{
+    type = integer, min = 0, max = 365, default = 0,
+    page = PZContinuedBroadcast, translation = PZCB_DaysOffAir,
+}
+
+option PZContinuedBroadcast.RerunXP
+{
+    type = boolean, default = true,
+    page = PZContinuedBroadcast, translation = PZCB_RerunXP,
+}
