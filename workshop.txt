@@ -1,4 +1,5 @@
 version=1
+id=3816491731
 title=Continued TV Broadcast: Life and Living
 description=Continues "Life and Living" TV broadcasting after day 9.
 description=Good in case you die and would like to continue the same world with a different character.
@@ -14,5 +15,5 @@ description=Should work in MP, but it was not tested. (I would love feedback)
 description=Can be added to existing saves.
 description=Does not replace game files.
 description=Build 42.
-tags=Build 42;Skills;QoL;Multiplayer
+tags=Build 42;Balance;Misc;Multiplayer;Skills;QoL
 visibility=public
